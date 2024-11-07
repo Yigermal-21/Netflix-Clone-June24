@@ -1,17 +1,15 @@
-import { useState } from 'react'
+import "./App.css"
+import "./index.css"
+import React from "react";
+import Home from "./Pages/Home/Home"
+import Header from "./Components/Header/Header";
 
-import './App.css'
-
-function App() {
-  
-
+const App = () => {
   return (
-    <> 
-        <div>
-            <h1>Hello</h1>
-        </div>
-    </>
-  )
-}
+    <div className="App">
+      <Home />
+    </div>
+  );
+};
 
-export default App
+export default App;

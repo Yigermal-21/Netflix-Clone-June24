@@ -1,0 +1,24 @@
+/* src/index.css or src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Global Variables */
+:root {
+  --font-base: 'Lexend', sans-serif;
+  --font-second-base: 'Inter', sans-serif;
+  --bg-color: #111;
+  --primary-color: #fff;
+  --secondary-color: #e50914;
+}
+
+/* Reset Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  background:#111;
+}
+
+
