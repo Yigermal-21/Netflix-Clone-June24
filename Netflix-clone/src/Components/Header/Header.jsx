@@ -1,6 +1,6 @@
 import React from 'react'
 import "./header.css"
-import LogoImage from "../../assets/images/download.png"
+import LogoImage from "../../assets/images/Brand_Logos_01.jpg"
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
