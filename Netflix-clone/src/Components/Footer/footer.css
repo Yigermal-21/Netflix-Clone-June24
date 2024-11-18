@@ -12,17 +12,26 @@
 }
 .footer_icons{
     /* background-color: blue; */
-    width:12%;
+    width:15%;
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
+    grid-gap: 10px;
     color: #fff;
 
 }
-.footer_data{
+.footer_data {
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    
 
+
+}
+.footer_data div {
+  flex:1;
+  padding: 0 15px; 
 }
 .footer_data ul{
     list-style: none;
@@ -31,7 +40,7 @@
     justify-content:space-around;
     height: 12vh;
 
-    /* background-color: blue; */
+    /*background-color: blue; */
 }
 .footer_data ul li{
     cursor: pointer;
@@ -41,8 +50,8 @@
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
-    width:10%;
-    margin:10px 0;
+    width:15%;
+    margin:15px 5px;
     cursor: pointer;
 } 
 
